@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More on CSS</title>
+</head>
+<style>
+  .list li{
+    float: left;
+    padding: 20px;
+  }
+  .text{
+    color: #f0f8ff;
+  }
+  .nav_bar{
+    background-color: #4a6ddd;
+  }
+  .text:hover{
+    color: #000000;
+  }
+  .list{
+    overflow: auto;
+  }
+  .mainbox{
+    background-color: #00ffff;
+    border-radius: 20px;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    padding: 10px;
+  }
+  .innerbox{
+    background-image: linear-gradient(to right, #1919b4, #7a7add);
+    border-radius: 10px;
+    width: 590px;
+    height: 340px;
+    margin: auto;
+  }
+  .h{
+    color: #ffffff;
+    padding: 30px 0px 10px 30px;
+  }
+  .p{
+    color: #ffffff;
+    margin: 0px 20px 0px 30px;
+    border-style: solid;
+    border-radius: 6px;
+    background-color: #022f69;
+    display: inline;
+    border-color: #022f69;
+  }
+  .p2{
+    color: #ffffff;
+    margin: auto;
+    outline-style: solid;
+    display: inline;
+    background-color: #5757c7;
+    outline-width: 1px;
+    padding: 2px;
+    border-radius: 6px;
+  }
+  .img1{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 50px;
+  }
+  .img2{
+    border-style: double;
+    border-radius: 50%;
+    border-color: #000000;
+    height: 90px;
+    width: 70px;
+    margin: 30px 15px 30px 30px;
+  }
+  .line{
+    font-size: 22px;
+  }
+</style>
+<body>
+  <nav class="menu">
+    <ul><a href="ques3-5.html">ques3-5</a></ul>
+    <ul><a href="ques6.html">ques6</a></ul>
+    <ul><a href="ques7.html">ques7</a></ul>
+    <ul><a href="ques8.html">ques8</a></ul>
+    <ul><a href="ques9-10.html">ques9-10</a></ul>
+  </nav>
+  <div class="ques1">
+    <p>1. Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5
+      navigation links that are properly placed within the navigation bar using the CSS box model. The
+      navigation items must change their text color on hover.</p>
+      <nav class="nav_bar">
+        <ul style="list-style-type: none;" class="list">
+          <li><a href="https://pwskills.com/" class="text">Home</a></li>
+          <li><a href="https://pwskills.com/contact-us/" class="text">Contact Us</a></li>
+          <li><a href="https://pwskills.com/blog/" class="text">Blog</a></li>
+          <li><a href="https://accounts.pwskills.com/login?domain=pwskills.com&redirectUrl=%2F&position=login_or_register_cta" class="text">Login</a></li>
+          <li><a href="https://pwskills.com/about-us/" class="text">About Us</a></li>
+        </ul>
+      </nav>
+  </div>
+  <div class="ques2">
+    <p>2. Create a div centered with an image and paragraph similar to the image mentioned below.</p>
+    <div class="mainbox">
+      <div class="innerbox">
+        <h1 class="h">FULL STACK WEB <br /> DEVELOPMENT 2.0</h1>
+        <p class="p">HINGLISH</p>
+        <p class="p2">SIGMA 2.0 (BATCH) </p>
+        <img src="team.png" alt="Teamwork" class="img1">
+        <img src="human.jpg" alt="Teacher" class="img2">
+        <img src="human.jpg" alt="Teacher" class="img2">
+        <img src="human.jpg" alt="Teacher" class="img2">
+      </div>
+      <div style="padding: 20px;">
+      <p class="line"><b>Course Name:</b> PW Skills Sigma 2.0</p>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
